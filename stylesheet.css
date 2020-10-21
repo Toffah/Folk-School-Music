@@ -1,0 +1,94 @@
+.nav{
+    display: inline-block;
+    // justify-content: space-around;
+    min-height: 8vh;
+    background-color: rgb(221, 231, 199);
+    width: 100%;
+}
+
+navItem{
+    padding: 9px 25px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+navitem:hover{
+    background-color:  rgb(191, 216, 189);
+}
+
+.logo{
+    display: inline-block;
+    color: rgb(119, 191, 163);
+    letter-spacing: 2px;
+    font: icon;
+    font-size: 20px;
+}
+
+.inlineBlock{
+    display: inline-block;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+h2{
+    align-items: center;
+}
+
+
+.addSong-form{
+    max-width: 100%;
+    margin-right: 50px;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.addSong-form input{
+    background-color: rgb(221, 231, 199);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    min-height: 40px;
+    max-height: 40px;
+    min-width: auto;
+}
+
+textarea{
+    background-color: rgb(221, 231, 199);
+    border: none;
+    width: 100%;
+    min-height: 350px;
+    max-height: 350px;
+}
+
+.containerSong{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.containerSong p{
+    padding: 40px;
+}
+
+
+/*
+background-color: rgb(221, 231, 199);
+color: #fff;
+border: none;
+padding: 12px;
+font-size: 15px;
